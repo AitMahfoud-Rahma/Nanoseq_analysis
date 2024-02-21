@@ -7,6 +7,6 @@ the code ( qlt_histo.py) uses the Matplotlib library to generate a histogram of 
 
 # Environment Path & Versions
 
-- R: source `/local/env/envr-4.1.3.sh`
-- samtools: `./local/env/envsamtools-1.15.sh`
-- Python: `./local/env/envpython-3.9.5.sh`
+- R: `/local/env/envr-4.1.3.sh`
+- samtools: `/local/env/envsamtools-1.15.sh`
+- Python: `/local/env/envpython-3.9.5.sh`
