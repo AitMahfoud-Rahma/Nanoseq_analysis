@@ -6,7 +6,7 @@ This repository contains a Nextflow pipeline for Nanoseq analysis applied to lon
 
 Before running the Nextflow command, make sure to perform the following steps:
 
-### 1. Create a (samplesheet.csv) file
+### 1. Create an input file (samplesheet.csv)
 
 Create a file named [samplesheet.csv](samplesheet.csv) with the following information:
 
@@ -36,7 +36,19 @@ Execute the following command to run the Nanoseq Nextflow pipeline:
 
 Ensure that Nextflow is installed, and Singularity is available on your cluster before running the command.
 
+## Output
+The pipeline generates the following output directories:
 
+  - **fastqc**: FastQC reports for input and output files.
+  - **minimap2**: Minimap2 alignment results.
+  - **multiqc**: MultiQC report summarizing the analysis.
+  - **nanoplot**: NanoPlot reports for input and output files.
+  - **pipeline_info**: Information about the pipeline.
+
+## Analysis
+
+[QC_fastqc](QC_fastqc) : Statistical analysis of quality for the sequences resulting from FastQC.
+[QC_mapping](QC_mapping) : QC_mapping: Statistical analysis of quality for the alignment results with the reference genome.
 
 # Environment Path & Versions
 
