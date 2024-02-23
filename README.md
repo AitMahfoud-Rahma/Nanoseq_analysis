@@ -13,8 +13,8 @@ Create a file named `samplesheet.csv` with the following information:
 ```csv
 group,replicate,barcode,input_file,fasta,gtf
 AA-1,1,,/groups/dog/nanopore/GOLDOGS/AA/DFQ_AA_ONT_1_FAV08437_A.NB13.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
-AA-2,1,,/groups/dog/nanopore/GOLDOGS/AA/DFQ_AA_ONT_1_FAV08437_A.NB20.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf ```
-
+AA-2,1,,/groups/dog/nanopore/GOLDOGS/AA/DFQ_AA_ONT_1_FAV08437_A.NB20.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf csv
+```
 ### 2. Choose a compute cluster node
 
 Use the following command to request a node on the compute cluster:
@@ -31,8 +31,8 @@ Execute the following command to run the Nanoseq Nextflow pipeline:
   -profile singularity
 ```
 *--input samplesheet.csv * : specifies the input file.
---protocol DNA: indicates the DNA analysis protocol.
---skip_quantification: skips the quantification step.
+***--protocol DNA***: indicates the DNA analysis protocol.
+**--skip_quantification**: skips the quantification step.
 --skip_demultiplexing: skips the demultiplexing step.
 -profile singularity: uses the Singularity profile for execution.
 
