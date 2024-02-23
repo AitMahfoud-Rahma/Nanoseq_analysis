@@ -30,11 +30,11 @@ Execute the following command to run the Nanoseq Nextflow pipeline:
   --skip_demultiplexing \
   -profile singularity
 ```
-*--input samplesheet.csv * : specifies the input file.
-***--protocol DNA***: indicates the DNA analysis protocol.
-**--skip_quantification**: skips the quantification step.
---skip_demultiplexing: skips the demultiplexing step.
--profile singularity: uses the Singularity profile for execution.
+  - **--input samplesheet.csv** : specifies the input file.
+  - **--protocol DNA**: indicates the DNA analysis protocol.
+  - **--skip_quantification**: skips the quantification step.
+  - **--skip_demultiplexing**: skips the demultiplexing step.
+  - **-profile singularity**: uses the Singularity profile for execution.
 
 Ensure that Nextflow is installed, and Singularity is available on your cluster before running the command.
 
