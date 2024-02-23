@@ -47,8 +47,8 @@ The pipeline generates the following output directories:
 
 ## Analysis
 
-[QC_fastqc](QC_fastqc) : Statistical analysis of quality for the sequences resulting from FastQC.
-[QC_mapping](QC_mapping) : QC_mapping: Statistical analysis of quality for the alignment results with the reference genome.
+- [QC_fastqc](QC_fastqc) : Statistical analysis of quality for the sequences resulting from FastQC.
+- [QC_mapping](QC_mapping) : QC_mapping: Statistical analysis of quality for the alignment results with the reference genome.
 
 # Environment Path & Versions
 
