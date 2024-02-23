@@ -8,7 +8,7 @@ Before running the Nextflow command, make sure to perform the following steps:
 
 ### 1. Create a (samplesheet.csv) file
 
-Create a file named `samplesheet.csv` (samplesheet.csv) with the following information:
+Create a file named [samplesheet.csv](samplesheet.csv) with the following information:
 
 ```csv
 group,replicate,barcode,input_file,fasta,gtf
