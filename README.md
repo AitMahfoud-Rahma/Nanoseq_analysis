@@ -44,6 +44,7 @@ The pipeline generates the following output directories:
   - **multiqc**: MultiQC report summarizing the analysis.
   - **nanoplot**: NanoPlot reports for input and output files.
   - **pipeline_info**: Information about the pipeline.
+  - **variant_calling**: zipped VCF file with smtructural variants.
 
 ## Analysis
 
