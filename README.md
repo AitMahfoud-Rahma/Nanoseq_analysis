@@ -78,4 +78,4 @@ The pipeline generates the following output directories:
   Workflow:
     Nextflow: 23.10.0
     nf-core/nanoseq: 3.1.0
-```
+
