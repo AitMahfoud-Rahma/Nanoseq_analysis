@@ -56,3 +56,26 @@ The pipeline generates the following output directories:
 - R: `/local/env/envr-4.1.3.sh`
 - samtools: `/local/env/envsamtools-1.15.sh`
 - Python: `/local/env/envpython-3.9.5.sh`
+- Pipeline_info :
+  ```bash
+  BEDTOOLS_GENOMECOV:
+  bedtools: 2.29.2
+CUSTOM_DUMPSOFTWAREVERSIONS:
+  python: 3.10.6
+  yaml: '6.0'
+DEEPVARIANT:
+  deepvariant: 1.4.0
+GET_CHROM_SIZES:
+  samtools: '1.13'
+MINIMAP2_INDEX:
+  minimap2: 2.17-r941
+SAMTOOLS_STATS:
+  samtools: 1.16.1
+SNIFFLES:
+  sniffles: 1.0.12
+UCSC_BEDGRAPHTOBIGWIG:
+  ucsc_bedgraphtobigwig: '377'
+Workflow:
+  Nextflow: 23.10.0
+  nf-core/nanoseq: 3.1.0
+```
