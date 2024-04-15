@@ -1,0 +1,7 @@
+group,replicate,barcode,input_file,fasta,gtf
+AA,1,,/groups/dog/stage/rahma/samples_concat/AA.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
+AB,1,,/groups/dog/stage/rahma/samples_concat/AB.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
+AC,1,,/groups/dog/stage/rahma/samples_concat/AC.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
+AD,1,,/groups/dog/stage/rahma/samples_concat/AD.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
+AE,1,,/groups/dog/stage/rahma/samples_concat/AE.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
+AF,1,,/groups/dog/stage/rahma/samples_concat/AF.All.fastq.gz,/groups/dog/data/canFam4/sequence/UU_Cfam_GSD_1.0_canFam4/UU_Cfam_GSD_1.0_ROSY.fa,/groups/dog/data/hg38_GRCh38/annotation/Ensembl108/Homo_sapiens.GRCh38.108.chr.UCSCformat.gtf
