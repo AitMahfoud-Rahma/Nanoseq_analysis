@@ -81,3 +81,7 @@ The pipeline generates the following output directories:
     Nextflow: 23.10.0
     nf-core/nanoseq: 3.1.0
 
+# First batch details 
+![Capture d’écran 2024-04-16 à 16 08 55](https://github.com/AitMahfoud-Rahma/Nanoseq_analysis/assets/155021211/66a8edb8-1e38-4dab-a8c5-07cd48c4837f)
+
+
