@@ -50,8 +50,8 @@ The pipeline generates the following output directories:
 - [QC_fastqc](QC_fastqc) : Statistical analysis of quality for the sequences resulting from FastQC.
 - [QC_mapping](QC_mapping) : QC_mapping: Statistical analysis of quality for the alignment results with the reference genome.
 - [QC_nanoplot](QC_nanoplot) : QC_nanoplot: Statistical analysis of quality for the nanoseq results.
-- [QC_variant_calling](QC_variant_calling) : QC_variant_calling: Statistical analysis of quality for the short variants annotation with [Deepvariant](Deepvariant), and the structural variants
-  with [Sniffles](Sniffles) & [CuteSV](CuteSV).
+- [QC_variant_calling](QC_variant_calling) : QC_variant_calling: Statistical analysis of quality for the short variants annotation with [Deepvariant](2nd_batch/QC_variant_calling/Short_variants/Deepvariant), and the structural variants
+  with [Sniffles](2nd_batch/QC_variant_calling/Structural_variants/Sniffles) & [CuteSV](2nd_batch/QC_variant_calling/Structural_variants/CuteSV).
 
 # Environment Path & Versions
 
