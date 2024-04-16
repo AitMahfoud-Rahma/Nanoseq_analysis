@@ -1,6 +1,8 @@
 # Nanoseq Analysis for GOLDOG Longevity Project
 
 This repository contains a Nextflow pipeline for Nanoseq analysis applied to long-read data for the GOLDOG longevity project (2nd Batch).
+![Capture d’écran 2024-04-16 à 15 31 22](https://github.com/AitMahfoud-Rahma/Nanoseq_analysis/assets/155021211/31b3f8d8-41fb-4348-9d1a-60a7acb958a0)
+
 
 ## Prerequisites
 
