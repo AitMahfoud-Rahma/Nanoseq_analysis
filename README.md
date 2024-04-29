@@ -65,6 +65,8 @@ The pipeline generates the following output directories:
   CUSTOM_DUMPSOFTWAREVERSIONS:
     python: 3.10.6
     yaml: '6.0'
+  CUTESV:
+  cuteSV: 1.0.12
   DEEPVARIANT:
     deepvariant: 1.4.0
   GET_CHROM_SIZES:
