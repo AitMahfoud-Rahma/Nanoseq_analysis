@@ -1,0 +1,4 @@
+Sample	Number of total variants	Number of short variants
+BB-1	7783220	2738585
+BB-4	8234249	3871539
+BE	1713410	1130641
