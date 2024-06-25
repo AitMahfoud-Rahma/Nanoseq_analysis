@@ -50,6 +50,7 @@ The pipeline generates the following output directories:
 
 ## Analysis
 
+- [2nd_batch](2nd_batch) : Contains the main second batch analyses 
 - [QC_fastqc](QC_fastqc) : Statistical analysis of quality for the sequences resulting from FastQC.
 - [QC_mapping](QC_mapping) : QC_mapping: Statistical analysis of quality for the alignment results with the reference genome.
 - [QC_concat](QC_concat) : Analysis of concatenated 1st batch data.
